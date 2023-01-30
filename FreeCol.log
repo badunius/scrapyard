@@ -1,0 +1,563 @@
+FreeCol game version: 1.0.0 (Revision: fe35ef3)
+FreeCol protocol version: 0.1.6
+
+Java vendor: Eclipse Adoptium
+Java version: 19.0.1
+Java WM name: OpenJDK 64-Bit Server VM
+Java WM vendor: Eclipse Adoptium
+Java WM version: 19.0.1+10
+
+OS name: Windows 10
+OS architecture: amd64
+OS version: 10.0
+
+net.sf.freecol.FreeCol main
+	INFO: Loaded messages for en_GB
+	Fri Jan 27 16:14:20 MSK 2023
+	Thread: 1
+net.sf.freecol.common.util.LogBuilder log
+	INFO: sun.java2d.pmoffscreen using client option: true, sun.java2d.opengl using client option: true
+	Fri Jan 27 16:14:21 MSK 2023
+	Thread: 1
+net.sf.freecol.FreeCol main
+	INFO: Configuration:
+	  version     1.0.0 (Revision: fe35ef3)
+	  java:       19.0.1
+	  memory:     4280287232
+	  locale:     en_GB
+	  data:       app\data
+	  userConfig: B:\usr\doc\freecol
+	  userData:   B:\usr\doc\freecol
+	  autosave:   B:\usr\doc\freecol\save\autosave
+	  logFile:    B:\usr\doc\freecol\FreeCol.log
+	  options:    B:\usr\doc\freecol\freecol\options.xml
+	  save:       B:\usr\doc\freecol\save
+	  userMods:   B:\usr\doc\freecol\mods
+	  seed:       4104598342053868389
+	  debug:      
+	Fri Jan 27 16:14:21 MSK 2023
+	Thread: 1
+net.sf.freecol.common.resources.FontResource <init>
+	INFO: Loaded font: Dialog.plain from: urn:font:Dialog-PLAIN-12
+	Fri Jan 27 16:14:22 MSK 2023
+	Thread: 31
+net.sf.freecol.common.resources.FontResource <init>
+	INFO: Loaded font: ShadowedBlack from: file:/B:/games/FreeCol-1/app/data/base/resources/fonts/ShadowedBlack.ttf
+	Fri Jan 27 16:14:24 MSK 2023
+	Thread: 31
+net.sf.freecol.common.resources.FontResource <init>
+	INFO: Loaded font: Serif.plain from: urn:font:Serif-PLAIN-12
+	Fri Jan 27 16:14:24 MSK 2023
+	Thread: 31
+net.sf.freecol.client.FreeColClient loadClientOptions
+	INFO: Load default client options.
+	Fri Jan 27 16:14:27 MSK 2023
+	Thread: 31
+net.sf.freecol.common.option.OptionGroup load
+	INFO: Load OptionGroup(clientOptions) from app\data\base\client-options.xml succeeded
+	Fri Jan 27 16:14:28 MSK 2023
+	Thread: 31
+net.sf.freecol.client.FreeColClient loadClientOptions
+	INFO: Load client options from the action manager.
+	Fri Jan 27 16:14:28 MSK 2023
+	Thread: 31
+net.sf.freecol.client.FreeColClient loadClientOptions
+	INFO: Merge client options from user options file: B:\usr\doc\freecol\freecol\options.xml
+	Fri Jan 27 16:14:28 MSK 2023
+	Thread: 31
+net.sf.freecol.common.option.OptionGroup load
+	INFO: Load OptionGroup(clientOptions) from B:\usr\doc\freecol\freecol\options.xml succeeded
+	Fri Jan 27 16:14:28 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.SwingGUI determineScaleFactorUsingClientOptions
+	INFO: Manual scale factor: 2.0 (reported DPI: 192)
+	Fri Jan 27 16:14:28 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.SwingGUI <init>
+	INFO: GUI constructed using scale factor 2.0
+	Fri Jan 27 16:14:28 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.SwingGUI determineMainFontSizeUsingClientOptions
+	INFO: Manual font size: 30 (reported DPI: 192)
+	Fri Jan 27 16:14:28 MSK 2023
+	Thread: 31
+net.sf.freecol.client.control.SoundController <init>
+	INFO: Create sound player with [model.option.audioMixer Autodetect audio output/Primary Sound Driver, version Unknown Version]
+	Fri Jan 27 16:14:30 MSK 2023
+	Thread: 31
+net.sf.freecol.common.sound.SoundPlayer setMixer
+	INFO: Mixer Autodetect audio output/Primary Sound Driver, version Unknown Version selected
+	Fri Jan 27 16:14:30 MSK 2023
+	Thread: 31
+net.sf.freecol.common.sound.SoundPlayer setMixer
+	INFO: Mixer Autodetect audio output/Primary Sound Driver, version Unknown Version selected
+	Fri Jan 27 16:14:30 MSK 2023
+	Thread: 31
+net.sf.freecol.common.resources.ResourceManager$1 run
+	INFO: Preload thread started
+	Fri Jan 27 16:14:30 MSK 2023
+	Thread: 42
+net.sf.freecol.common.resources.ResourceManager$1 run
+	INFO: Preload done, 1289 resources.
+	Fri Jan 27 16:15:02 MSK 2023
+	Thread: 42
+net.sf.freecol.client.gui.Canvas checkWindowed
+	INFO: Windowed mode used.
+	Fri Jan 27 16:15:03 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.FreeColFrame <init>
+	INFO: Windowed frame created with size 3840x2080
+	Fri Jan 27 16:15:03 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.Canvas updateSize
+	INFO: Canvas resize from java.awt.Dimension[width=0,height=0] to java.awt.Dimension[width=3814,height=2009]
+	Fri Jan 27 16:15:03 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.Canvas <init>
+	INFO: Canvas created with bounds: null
+	Fri Jan 27 16:15:03 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.SwingGUI startGUI
+	INFO: GUI started.
+	Fri Jan 27 16:15:03 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated NONE -> END
+	Fri Jan 27 16:15:03 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained END -> END
+	Fri Jan 27 16:15:03 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.Canvas updateSize
+	INFO: Canvas resize from java.awt.Dimension[width=3814,height=2009] to java.awt.Dimension[width=3840,height=2035]
+	Fri Jan 27 16:15:16 MSK 2023
+	Thread: 31
+net.sf.freecol.client.ClientOptions load
+	INFO: Load OptionGroup(clientOptions) from B:\usr\doc\freecol\save\autosave\Autosave-last-turn.fsg succeeded
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.FreeCol setName
+	INFO: Set FreeCol.name = badunius
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.server.FreeColServer readGame
+	INFO: Found savegame version 14
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.common.model.Specification clean
+	INFO: Specification clean following load from stream complete, starting year=1492, season year=1600, ages=[1,109,1309], seasons=12, difficulty=model.difficulty.medium, 270 Types, 80 Abilities, 41 BuildingTypes, 14 Disasters, 10 EuropeanNationTypes, 2 Events, 25 FoundingFathers, 21 GoodsTypes, 8 IndianNationTypes, 59 Modifiers, 25 Nations, 167 Options, 23 Option Groups, 12 ResourceTypes, 11 Roles, 23 TileTypes, 7 TileImprovementTypes, 14 UnitChangeTypes, 43 UnitTypes read.
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.server.FreeColServer loadGame
+	INFO: Game integrity test succeeded.
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.server.FreeColServer loadGame
+	INFO: AI integrity test succeeded.
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.common.model.Specification loadMods
+	INFO: Loaded mod monthSeasons
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.common.model.Specification loadMods
+	INFO: Loaded mod hutzli
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.common.model.Specification loadMods
+	INFO: Loaded mod plantForest
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.common.model.Specification loadMods
+	INFO: Loaded mod convertUpgrade
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.common.model.Specification loadMods
+	INFO: Loaded mod courtesans
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.common.model.Specification loadMods
+	INFO: Loaded mod expandExperience
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.common.model.Specification clean
+	INFO: Specification clean following mod loading complete, starting year=1492, season year=1600, ages=[1,109,1309], seasons=12, difficulty=model.difficulty.medium, 271 Types, 80 Abilities, 41 BuildingTypes, 14 Disasters, 10 EuropeanNationTypes, 2 Events, 25 FoundingFathers, 21 GoodsTypes, 8 IndianNationTypes, 59 Modifiers, 25 Nations, 167 Options, 23 Option Groups, 12 ResourceTypes, 11 Roles, 23 TileTypes, 7 TileImprovementTypes, 14 UnitChangeTypes, 43 UnitTypes read.
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.SwingGUI determineScaleFactorUsingClientOptions
+	INFO: Manual scale factor: 2.0 (reported DPI: 192)
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.SwingGUI determineMainFontSizeUsingClientOptions
+	INFO: Manual font size: 30 (reported DPI: 192)
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained END -> END
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained END -> END
+	Fri Jan 27 16:15:22 MSK 2023
+	Thread: 31
+net.sf.freecol.server.FreeColServer addNewUserConnection
+	INFO: Client connected from /127.0.0.1:54043
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 54
+net.sf.freecol.client.control.ConnectController connect
+	INFO: Connected to 127.0.0.1:3541 as badunius
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 31
+net.sf.freecol.client.control.ConnectController requestLogin
+	INFO: Login request for client badunius
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 31
+net.sf.freecol.common.model.Specification clean
+	INFO: Specification clean following load from stream complete, starting year=1492, season year=1600, ages=[1,109,1309], seasons=12, difficulty=model.difficulty.medium, 270 Types, 80 Abilities, 41 BuildingTypes, 14 Disasters, 10 EuropeanNationTypes, 2 Events, 25 FoundingFathers, 21 GoodsTypes, 8 IndianNationTypes, 59 Modifiers, 25 Nations, 167 Options, 23 Option Groups, 12 ResourceTypes, 11 Roles, 23 TileTypes, 7 TileImprovementTypes, 14 UnitChangeTypes, 43 UnitTypes read.
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 56
+net.sf.freecol.client.control.ConnectController login
+	INFO: Login accepted for client badunius to ready single-player game as badunius/player:19
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained END -> END
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained END -> END
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 31
+net.sf.freecol.server.control.PreGameController requestLaunch
+	INFO: Launching for [ServerPlayer player:19 badunius]
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 59
+net.sf.freecol.server.FreeColServer startGame
+	INFO: Server starting game: LOAD_GAME
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 59
+net.sf.freecol.client.control.PreGameController$1 run
+	INFO: Client starting game
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 61
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained END -> END
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained END -> END
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated END -> UNIT with unit [unit:7936 russian veteranSoldier-dragoon 4/4]
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:7936 russian veteranSoldier-dragoon 4/4]
+	Fri Jan 27 16:15:23 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.mapviewer.MapViewer verifyAndMarkAsClean
+	INFO: Repaint has been called for a smaller area than what is dirty. Have you forgotten to call repaint() after marking stuff as dirty? The only known OK instance of this happening is when the GUI is starting up. Bounds: java.awt.Rectangle[x=0,y=0,width=3840,height=1972] ==> java.awt.Rectangle[x=0,y=0,width=3840,height=2035]
+	Fri Jan 27 16:15:25 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.mapviewer.MapViewer verifyAndMarkAsClean
+	INFO: Repaint has been called for a smaller area than what is dirty. Have you forgotten to call repaint() after marking stuff as dirty? The only known OK instance of this happening is when the GUI is starting up. Bounds: java.awt.Rectangle[x=0,y=0,width=3840,height=1972] ==> java.awt.Rectangle[x=0,y=0,width=3840,height=2035]
+	Fri Jan 27 16:15:26 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.Canvas updateSize
+	INFO: Canvas resize from java.awt.Dimension[width=3840,height=2035] to java.awt.Dimension[width=3840,height=1972]
+	Fri Jan 27 16:15:26 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:7936 russian veteranSoldier-dragoon 4/4]
+	Fri Jan 27 16:15:51 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:7936 russian veteranSoldier-dragoon 4/4]
+	Fri Jan 27 16:15:51 MSK 2023
+	Thread: 31
+net.sf.freecol.common.util.LogBuilder log
+	INFO: Combat attacker=unit:7936-veteranSoldier-dragoon [Modifier model.modifier.offence (model.source.baseOffence) ADDITIVE 0.0 index=10] [Modifier model.modifier.offence (model.role.dragoon) ADDITIVE 3.0 index=30] [Modifier model.modifier.offence (model.unit.veteranSoldier) PERCENTAGE 50.0 index=40] [Modifier model.modifier.attackBonus (model.source.attackBonus) PERCENTAGE 50.0 index=50] = 6.75 defender=unit:10439-freeColonist [Modifier model.modifier.defence (model.source.baseDefence) ADDITIVE 1.0 index=10] = 1.0 odds=0.8709677419354839 random(1.0)=0.41732943942159084 great=false Attack WIN CAPTURE_UNIT
+	Fri Jan 27 16:15:51 MSK 2023
+	Thread: 62
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:7936 russian veteranSoldier-dragoon 0/4]
+	Fri Jan 27 16:15:51 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:7936 russian veteranSoldier-dragoon 0/4]
+	Fri Jan 27 16:15:51 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:7936 russian veteranSoldier-dragoon 0/4]
+	Fri Jan 27 16:15:51 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10568 russian hardyPioneer-pioneer.2 1/1]
+	Fri Jan 27 16:15:51 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10568 russian hardyPioneer-pioneer.2 1/1]
+	Fri Jan 27 16:15:51 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10568 russian hardyPioneer-pioneer.2 1/1]
+	Fri Jan 27 16:15:51 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10568 russian hardyPioneer-pioneer.2 1/1]
+	Fri Jan 27 16:15:51 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10568 russian hardyPioneer-pioneer.2 1/1]
+	Fri Jan 27 16:15:54 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10568 russian hardyPioneer-pioneer.2 0/1]
+	Fri Jan 27 16:16:46 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10568 russian hardyPioneer-pioneer.2 0/1]
+	Fri Jan 27 16:16:46 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10679 russian artillery 1/1]
+	Fri Jan 27 16:16:46 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10679 russian artillery 1/1]
+	Fri Jan 27 16:16:46 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10679 russian artillery 1/1]
+	Fri Jan 27 16:16:46 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10679 russian artillery 1/1]
+	Fri Jan 27 16:16:46 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10679 russian artillery 1/1]
+	Fri Jan 27 16:16:51 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10679 russian artillery 1/1]
+	Fri Jan 27 16:16:53 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10679 russian artillery 1/1]
+	Fri Jan 27 16:16:53 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10679 russian artillery 1/1]
+	Fri Jan 27 16:16:53 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> UNIT with unit [unit:10679 russian artillery 1/1]
+	Fri Jan 27 16:16:56 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated UNIT -> TILE with tile [tile:1286 plains 17,25 Kadyak]
+	Fri Jan 27 16:16:56 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:1286 plains 17,25 Kadyak]
+	Fri Jan 27 16:16:56 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:1286 plains 17,25 Kadyak]
+	Fri Jan 27 16:16:58 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:1286 plains 17,25 Kadyak]
+	Fri Jan 27 16:16:58 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:1286 plains 17,25 Kadyak]
+	Fri Jan 27 16:16:58 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated TILE -> TILE with tile [tile:1566 coniferForest 17,32]
+	Fri Jan 27 16:17:01 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:1566 coniferForest 17,32]
+	Fri Jan 27 16:17:01 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated TILE -> TILE with tile [tile:1444 grassland 15,29]
+	Fri Jan 27 16:17:17 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:1444 grassland 15,29]
+	Fri Jan 27 16:17:17 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:1444 grassland 15,29]
+	Fri Jan 27 16:18:28 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:1444 grassland 15,29]
+	Fri Jan 27 16:18:29 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated TILE -> TILE with tile [tile:1922 broadleafForest 13,41 Santa Marta]
+	Fri Jan 27 16:22:56 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:1922 broadleafForest 13,41 Santa Marta]
+	Fri Jan 27 16:22:56 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated TILE -> TILE with tile [tile:2441 savannah 12,54]
+	Fri Jan 27 16:23:07 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2441 savannah 12,54]
+	Fri Jan 27 16:23:07 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated TILE -> TILE with tile [tile:2040 scrubForest 11,44]
+	Fri Jan 27 16:23:10 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2040 scrubForest 11,44]
+	Fri Jan 27 16:23:10 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2040 scrubForest 11,44]
+	Fri Jan 27 16:23:14 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2040 scrubForest 11,44]
+	Fri Jan 27 16:23:14 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2040 scrubForest 11,44]
+	Fri Jan 27 16:23:14 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2040 scrubForest 11,44]
+	Fri Jan 27 16:23:15 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2040 scrubForest 11,44]
+	Fri Jan 27 16:23:15 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2040 scrubForest 11,44]
+	Fri Jan 27 16:23:15 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:18 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:18 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:19 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:19 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:19 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:19 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:19 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:20 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:20 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:20 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2446 savannah 17,54]
+	Fri Jan 27 16:23:20 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated TILE -> TILE with tile [tile:2678 ocean 9,60]
+	Fri Jan 27 16:23:38 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2678 ocean 9,60]
+	Fri Jan 27 16:23:38 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2678 ocean 9,60]
+	Fri Jan 27 16:23:38 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel updated TILE -> TILE with tile [tile:2277 unknown 8,50]
+	Fri Jan 27 16:23:42 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2277 unknown 8,50]
+	Fri Jan 27 16:23:42 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2277 unknown 8,50]
+	Fri Jan 27 16:23:42 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2277 unknown 8,50]
+	Fri Jan 27 16:23:43 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2277 unknown 8,50]
+	Fri Jan 27 16:23:43 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2277 unknown 8,50]
+	Fri Jan 27 16:46:05 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2277 unknown 8,50]
+	Fri Jan 27 16:46:05 MSK 2023
+	Thread: 31
+net.sf.freecol.client.control.ConnectController requestLogout
+	INFO: Logout begin for client badunius: QUIT
+	Fri Jan 27 16:46:05 MSK 2023
+	Thread: 31
+net.sf.freecol.common.networking.LogoutMessage serverHandler
+	INFO: Handling logout by badunius
+	Fri Jan 27 16:46:05 MSK 2023
+	Thread: 66
+net.sf.freecol.client.control.ConnectController logout
+	INFO: Logout end for client badunius: QUIT
+	Fri Jan 27 16:46:05 MSK 2023
+	Thread: 31
+net.sf.freecol.common.networking.ReceivingThread askToStop
+	INFO: ReceivingThread-FreeColClient:badunius: stopped receiving thread: connection closing
+	Fri Jan 27 16:46:05 MSK 2023
+	Thread: 31
+net.sf.freecol.common.networking.ReceivingThread askToStop
+	INFO: ReceivingThread-FreeColServer:/127.0.0.1:54043: stopped receiving thread: listen-disconnect
+	Fri Jan 27 16:46:05 MSK 2023
+	Thread: 55
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2277 unknown 8,50]
+	Fri Jan 27 16:46:05 MSK 2023
+	Thread: 31
+net.sf.freecol.client.gui.panel.InfoPanel update
+	INFO: InfoPanel maintained TILE -> TILE with tile [tile:2277 unknown 8,50]
+	Fri Jan 27 16:46:05 MSK 2023
+	Thread: 31
